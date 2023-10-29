@@ -1,19 +1,12 @@
-const ENV = import.meta.env;
-const parseEnv = Object.entries(ENV).reduce((acc, [key, value]) => {
-  if (value === 'true') {
-    acc[key] = true;
-    return acc;
+const ENV: ImportMetaEnv = import.meta.env;
+
+const parseENV: { [key: string]: string } = {};
+
+Object.entries(ENV).map((env) => {
+  if (env[0].includes('VITE')) {
+    parseENV[env[0]] = env[1]
   }
-  if (value === 'false') {
-    acc[key] = false;
-    return acc;
-  }
-  if (typeof value === 'string') {
-    acc[key] = value;
-    return acc;
-  }
-  return acc;
-}, {} as ImportMetaEnv);
+});
 
 // env name variable
-export const { a } = parseEnv
+export const { VITE_API_ENDPOINT } = parseENV;
