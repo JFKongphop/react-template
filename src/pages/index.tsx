@@ -1,8 +1,9 @@
 import React from 'react'
 
 const index = () => {
+  const a = ""
   return (
-    <div>index</div>
+    <div className="text-red-500">index</div>
   )
 }
 
