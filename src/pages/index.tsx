@@ -1,6 +1,6 @@
 const index = () => {
   return (
-    <div className="text-red-500">index</div>
+    <div className="text-red-500">index test</div>
   )
 }
 
