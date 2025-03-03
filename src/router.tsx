@@ -2,7 +2,7 @@ import {
   ActionFunction,
   createBrowserRouter,
   LoaderFunction,
-} from 'react-router-dom';
+} from 'react-router';
 
 interface IRoute {
   path: string;
