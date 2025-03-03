@@ -10,38 +10,38 @@ importers:
     dependencies:
       '@reduxjs/toolkit':
         specifier: ^1.9.5
-        version: 1.9.5(react-redux@8.1.2(@types/react-dom@18.2.7)(@types/react@18.2.20)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@5.0.1))(react@18.2.0)
+        version: 1.9.5(react-redux@8.1.2(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(redux@5.0.1))(react@19.0.0)
       axios:
         specifier: ^1.6.2
         version: 1.6.2
       react:
-        specifier: ^18.2.0
-        version: 18.2.0
+        specifier: ^19.0.0
+        version: 19.0.0
       react-dom:
-        specifier: ^18.2.0
-        version: 18.2.0(react@18.2.0)
+        specifier: ^19.0.0
+        version: 19.0.0(react@19.0.0)
       react-hook-form:
         specifier: ^7.48.2
-        version: 7.48.2(react@18.2.0)
+        version: 7.48.2(react@19.0.0)
       react-icons:
         specifier: ^4.11.0
-        version: 4.11.0(react@18.2.0)
+        version: 4.11.0(react@19.0.0)
       react-redux:
         specifier: ^8.1.2
-        version: 8.1.2(@types/react-dom@18.2.7)(@types/react@18.2.20)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@5.0.1)
+        version: 8.1.2(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(redux@5.0.1)
       react-router-dom:
         specifier: ^6.15.0
-        version: 6.15.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 6.15.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       redux:
         specifier: 5.0.1
         version: 5.0.1
     devDependencies:
       '@types/react':
-        specifier: ^18.2.20
-        version: 18.2.20
+        specifier: ^19.0.10
+        version: 19.0.10
       '@types/react-dom':
-        specifier: ^18.2.7
-        version: 18.2.7
+        specifier: ^19.0.4
+        version: 19.0.4(@types/react@19.0.10)
       '@typescript-eslint/eslint-plugin':
         specifier: ^6.4.0
         version: 6.4.0(@typescript-eslint/parser@6.4.0(eslint@8.47.0)(typescript@5.5.2))(eslint@8.47.0)(typescript@5.5.2)
@@ -497,17 +497,13 @@ packages:
   '@types/node@20.10.1':
     resolution: {integrity: sha512-T2qwhjWwGH81vUEx4EXmBKsTJRXFXNZTL4v0gi01+zyBmCwzE6TyHszqX01m+QHTEq+EZNo13NeJIdEqf+Myrg==}
 
-  '@types/prop-types@15.7.5':
-    resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
+  '@types/react-dom@19.0.4':
+    resolution: {integrity: sha512-4fSQ8vWFkg+TGhePfUzVmat3eC14TXYSsiiDSLI0dVLsrm9gZFABjPy/Qu6TKgl1tq1Bu1yDsuQgY3A3DOjCcg==}
+    peerDependencies:
+      '@types/react': ^19.0.0
 
-  '@types/react-dom@18.2.7':
-    resolution: {integrity: sha512-GRaAEriuT4zp9N4p1i8BDBYmEyfo+xQ3yHjJU4eiK5NDa1RmUZG+unZABUTK4/Ox/M+GaHwb6Ow8rUITrtjszA==}
-
-  '@types/react@18.2.20':
-    resolution: {integrity: sha512-WKNtmsLWJM/3D5mG4U84cysVY31ivmyw85dE84fOCk5Hx78wezB/XEjVPWl2JTZ5FkEeaTJf+VgUAUn3PE7Isw==}
-
-  '@types/scheduler@0.16.3':
-    resolution: {integrity: sha512-5cJ8CB4yAx7BH1oMvdU0Jh9lrEXyPkar6F9G/ERswkCuvP4KQZfZkSjcMbAICCpQTN4OuZn8tz0HiKv9TGZgrQ==}
+  '@types/react@19.0.10':
+    resolution: {integrity: sha512-JuRQ9KXLEjaUNjTWpzuR231Z2WpIwczOkBEIvbHNCzQefFIT0L8IqE6NV6ULLyC1SI/i234JnDoMkfg+RjQj2g==}
 
   '@types/semver@7.5.0':
     resolution: {integrity: sha512-G8hZ6XJiHnuhQKR7ZmysCeJWE08o8T0AXtk5darsCaTVsYZhhgUrq53jizaR2FvsoeCwJhlmwTjkXBY5Pn/ZHw==}
@@ -1029,9 +1025,6 @@ packages:
     resolution: {integrity: sha512-oVhqoRDaBXf7sjkll95LHVS6Myyyb1zaunVwk4Z0+WPSW4gjS0pl01zYKHScTuyEhQsFxV5L4DR5r+YqSyqyyg==}
     hasBin: true
 
-  js-tokens@4.0.0:
-    resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
-
   js-yaml@4.1.0:
     resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
     hasBin: true
@@ -1059,10 +1052,6 @@ packages:
 
   lodash.merge@4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
-
-  loose-envify@1.4.0:
-    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
-    hasBin: true
 
   lru-cache@6.0.0:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
@@ -1284,10 +1273,10 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  react-dom@18.2.0:
-    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
+  react-dom@19.0.0:
+    resolution: {integrity: sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ==}
     peerDependencies:
-      react: ^18.2.0
+      react: ^19.0.0
 
   react-hook-form@7.48.2:
     resolution: {integrity: sha512-H0T2InFQb1hX7qKtDIZmvpU1Xfn/bdahWBN1fH19gSe4bBEqTfmlr7H3XWTaVtiK4/tpPaI1F3355GPMZYge+A==}
@@ -1340,8 +1329,8 @@ packages:
     peerDependencies:
       react: '>=16.8'
 
-  react@18.2.0:
-    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
+  react@19.0.0:
+    resolution: {integrity: sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==}
     engines: {node: '>=0.10.0'}
 
   read-cache@1.0.0:
@@ -1396,8 +1385,8 @@ packages:
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
 
-  scheduler@0.23.0:
-    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
+  scheduler@0.25.0:
+    resolution: {integrity: sha512-xFVuu11jh+xcO7JOAGJNOXld8/TcEHK/4CituBUeUb5hqxJLj9YuemAEuvm9gQ/+pgXYfbQuqAkiYu+u7YEsNA==}
 
   semver@7.5.4:
     resolution: {integrity: sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==}
@@ -1749,15 +1738,15 @@ snapshots:
       picocolors: 1.0.0
       tslib: 2.6.2
 
-  '@reduxjs/toolkit@1.9.5(react-redux@8.1.2(@types/react-dom@18.2.7)(@types/react@18.2.20)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@5.0.1))(react@18.2.0)':
+  '@reduxjs/toolkit@1.9.5(react-redux@8.1.2(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(redux@5.0.1))(react@19.0.0)':
     dependencies:
       immer: 9.0.21
       redux: 4.2.1
       redux-thunk: 2.4.2(redux@4.2.1)
       reselect: 4.1.8
     optionalDependencies:
-      react: 18.2.0
-      react-redux: 8.1.2(@types/react-dom@18.2.7)(@types/react@18.2.20)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@5.0.1)
+      react: 19.0.0
+      react-redux: 8.1.2(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(redux@5.0.1)
 
   '@remix-run/router@1.8.0': {}
 
@@ -1865,7 +1854,7 @@ snapshots:
 
   '@types/hoist-non-react-statics@3.3.1':
     dependencies:
-      '@types/react': 18.2.20
+      '@types/react': 19.0.10
       hoist-non-react-statics: 3.3.2
 
   '@types/json-schema@7.0.12': {}
@@ -1875,19 +1864,13 @@ snapshots:
       undici-types: 5.26.5
     optional: true
 
-  '@types/prop-types@15.7.5': {}
-
-  '@types/react-dom@18.2.7':
+  '@types/react-dom@19.0.4(@types/react@19.0.10)':
     dependencies:
-      '@types/react': 18.2.20
+      '@types/react': 19.0.10
 
-  '@types/react@18.2.20':
+  '@types/react@19.0.10':
     dependencies:
-      '@types/prop-types': 15.7.5
-      '@types/scheduler': 0.16.3
       csstype: 3.1.2
-
-  '@types/scheduler@0.16.3': {}
 
   '@types/semver@7.5.0': {}
 
@@ -2461,8 +2444,6 @@ snapshots:
 
   jiti@1.19.1: {}
 
-  js-tokens@4.0.0: {}
-
   js-yaml@4.1.0:
     dependencies:
       argparse: 2.0.1
@@ -2485,10 +2466,6 @@ snapshots:
       p-locate: 5.0.0
 
   lodash.merge@4.6.2: {}
-
-  loose-envify@1.4.0:
-    dependencies:
-      js-tokens: 4.0.0
 
   lru-cache@6.0.0:
     dependencies:
@@ -2668,54 +2645,51 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-dom@18.2.0(react@18.2.0):
+  react-dom@19.0.0(react@19.0.0):
     dependencies:
-      loose-envify: 1.4.0
-      react: 18.2.0
-      scheduler: 0.23.0
+      react: 19.0.0
+      scheduler: 0.25.0
 
-  react-hook-form@7.48.2(react@18.2.0):
+  react-hook-form@7.48.2(react@19.0.0):
     dependencies:
-      react: 18.2.0
+      react: 19.0.0
 
-  react-icons@4.11.0(react@18.2.0):
+  react-icons@4.11.0(react@19.0.0):
     dependencies:
-      react: 18.2.0
+      react: 19.0.0
 
   react-is@16.13.1: {}
 
   react-is@18.2.0: {}
 
-  react-redux@8.1.2(@types/react-dom@18.2.7)(@types/react@18.2.20)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@5.0.1):
+  react-redux@8.1.2(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(redux@5.0.1):
     dependencies:
       '@babel/runtime': 7.22.10
       '@types/hoist-non-react-statics': 3.3.1
       '@types/use-sync-external-store': 0.0.3
       hoist-non-react-statics: 3.3.2
-      react: 18.2.0
+      react: 19.0.0
       react-is: 18.2.0
-      use-sync-external-store: 1.2.0(react@18.2.0)
+      use-sync-external-store: 1.2.0(react@19.0.0)
     optionalDependencies:
-      '@types/react': 18.2.20
-      '@types/react-dom': 18.2.7
-      react-dom: 18.2.0(react@18.2.0)
+      '@types/react': 19.0.10
+      '@types/react-dom': 19.0.4(@types/react@19.0.10)
+      react-dom: 19.0.0(react@19.0.0)
       redux: 5.0.1
 
-  react-router-dom@6.15.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  react-router-dom@6.15.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
       '@remix-run/router': 1.8.0
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      react-router: 6.15.0(react@18.2.0)
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      react-router: 6.15.0(react@19.0.0)
 
-  react-router@6.15.0(react@18.2.0):
+  react-router@6.15.0(react@19.0.0):
     dependencies:
       '@remix-run/router': 1.8.0
-      react: 18.2.0
+      react: 19.0.0
 
-  react@18.2.0:
-    dependencies:
-      loose-envify: 1.4.0
+  react@19.0.0: {}
 
   read-cache@1.0.0:
     dependencies:
@@ -2786,9 +2760,7 @@ snapshots:
     dependencies:
       queue-microtask: 1.2.3
 
-  scheduler@0.23.0:
-    dependencies:
-      loose-envify: 1.4.0
+  scheduler@0.25.0: {}
 
   semver@7.5.4:
     dependencies:
@@ -2913,9 +2885,9 @@ snapshots:
     dependencies:
       punycode: 2.3.0
 
-  use-sync-external-store@1.2.0(react@18.2.0):
+  use-sync-external-store@1.2.0(react@19.0.0):
     dependencies:
-      react: 18.2.0
+      react: 19.0.0
 
   util-deprecate@1.0.2: {}
 
